@@ -96,7 +96,7 @@ def process_form():
                                      direction = form_data.get('direction'))
 
 
-### only for running on repl.it
+### only for deploying on Google Cloud Run (so you can preview online)
 app.run('0.0.0.0', 8080)
 
 ### for running on your local machine, use this
