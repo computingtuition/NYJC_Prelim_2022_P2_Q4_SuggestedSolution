@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latecomers</title>
+</head>
+<body>
+    <h1>Latecomers</h1>
+    <table border="1">
+        <tr>
+            <th>Name of Student</th>
+            <th>Entry Time</th>
+        </tr>
+
+        {% for row in data %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
